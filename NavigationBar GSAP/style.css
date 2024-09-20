@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    color: white;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Uni Sans';
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    align-items: center;
+}
+
+#navigation-left{
+    font-size: 2vw;
+}
+
+#navigation-right{
+    font-size: 1.5vw;
+    display: flex;
+    /* background-color: red; */
+    width: 30%;
+    justify-content: space-around;
+}
+
+#navigation-right a{
+    color: white;
+    text-decoration: none;
+}
+
+#navigation-right a:hover{
+    color: white;
+    text-decoration: underline;
+}
